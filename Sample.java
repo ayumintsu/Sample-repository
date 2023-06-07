@@ -41,7 +41,7 @@ final class Main extends JavaPlugin implements Listener {
     // 今回は青色で星型の花火を打ち上げる。
     fireworkMeta.addEffect(
         FireworkEffect.builder()
-            .withColor(Color.BLUE)
+            .withColor(Color.GREEN)
             .with(Type.STAR)
             .withFlicker()
             .build());
